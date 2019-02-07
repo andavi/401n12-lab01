@@ -1,6 +1,6 @@
 
 ## Project Name
-Lab 01 [![Build Status](https://travis-ci.com/andavi/401n12-lab0.svg?branch=master)](https://travis-ci.com/andavi/401n12-lab0)
+Lab 01 [![Build Status](https://travis-ci.com/andavi/401n12-lab01.svg?branch=master)](https://travis-ci.com/andavi/401n12-lab01)
 
 ### Author: Andrew Davis
 
