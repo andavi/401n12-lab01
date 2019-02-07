@@ -4,12 +4,18 @@
   "description": "tdd demo",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
   },
   "author": "Andrew Davis",
   "license": "ISC",
   "devDependencies": {
     "faker": "^4.1.0",
     "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "eslint": "^5.13.0"
   }
 }

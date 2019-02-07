@@ -1,6 +1,6 @@
 'use strict';
-
+const arithmetic = require('.arithmetic');
 const greet = require('./lib/greet');
 
-console.log(greet.message);
-console.log(greet.sayHi('Andrew'));
+console.log(greet('Andrew'));
+console.log(arithmetic.divide(35, 2) + 10);
