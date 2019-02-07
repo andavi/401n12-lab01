@@ -2,6 +2,7 @@
 
 const faker = require('faker');
 const greet = require('../lib/greet');
+const arithmetic = require('../arithmetic');
 
 describe('#lib/greet.js', () => {
     test('These are the tests for the greet function', () => {
@@ -22,5 +23,25 @@ describe('#lib/greet.js', () => {
         expect(greet(world)).toEqual('hello world');
 
     });
+});
 
+describe('#arithmetic.js', () => {
+    test('These are the tests for the arithmetic module', () => {
+
+        //    ARRANGE
+        const numA = faker.random.number();
+        const numB = faker.random.number();
+        const aWord = faker.lorem.word();
+        const aBoolean = false;
+
+        //    ACT
+        //    Andrew - no ACT for this
+
+        //    ASSERT
+        expect(arithmetic.add(numA, numB)).toEqual(numA + numB);
+        expect(arithmetic.subtract(numA, numB)).toEqual(numA - numB);
+        expect(arithmetic.multiply(numA, numB)).toEqual(numA * numB);
+        expect(arithmetic.divide(numA, numB)).toEqual(numA / numB);
+
+    });
 });
